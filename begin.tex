@@ -1,0 +1,60 @@
+\documentclass[dvipdfmx, paper=a4, fontsize=10pt]{jlreq}
+\usepackage{amsfonts}
+\usepackage{amssymb,amsmath}
+\usepackage{bm}
+\usepackage{booktabs}
+\usepackage{breqn}
+\usepackage{caption}
+\usepackage{comment}
+\captionsetup[table]{justification=centering}   %caption内改行をしても中央揃え
+\captionsetup[figure]{justification=centering}  %caption内改行をしても中央揃え
+\usepackage{color}
+\usepackage{fancybox,ascmac}
+%\usepackage[top=10truemm,bottom=10truemm,left=25truemm,right=25truemm]{geometry}        %余白の設定
+\usepackage{graphicx}
+\usepackage{here}
+\usepackage{listings,jvlisting}
+\usepackage{physics}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{type1cm}
+\usepackage{url}
+
+%\pagestyle{empty}       %ページ番号を消す
+
+%insert code
+\definecolor{OliveGreen}{rgb}{0.0,0.6,0.0}
+\definecolor{Orenge}{rgb}{0.89,0.55,0}
+\definecolor{SkyBlue}{rgb}{0.28, 0.28, 0.95}
+\lstset{
+    %language={C++}, % 言語の指定
+    basicstyle={\ttfamily\small},       %書体の指定
+    identifierstyle={\small},           
+    commentstyle={\smallitshape},       %注釈の書体 
+    keywordstyle={\small\bfseries},      %キーワード(int, ifなど)の書体指定
+    ndkeywordstyle={\small},
+    stringstyle={\small\ttfamily},      %文字列
+    frame={tb},                         %枠縁(leftline，topline，bottomline，lines，trBL，shadowbox, single)
+    breaklines=true,                    %折り返し(自動改行)
+    columns=[l]{fullflexible},
+    numbers=left,
+    xrightmargin=0zw,
+    xleftmargin=3zw,
+    numbers=left,
+    numberstyle={\scriptsize},
+    stepnumber=1,
+    numbersep=1zw,
+    lineskip=-0.5ex,
+    keepspaces=true                      %スペースを維持
+    %keywordstyle={\color{SkyBlue}},     %キーワード(int, ifなど)の書体指定
+    %commentstyle={\color{OliveGreen}},  %注釈の書体
+    %stringstyle=\color{Orenge}          %文字列
+}
+\renewcommand{\lstlistingname}{Code}    % キャプション名の指定
+%\renewcommand{\baselinestretch}{0.8}    %デフォルトの行間に対する倍率を指定
+\title{title}
+\author{author}
+\date{\today}
+\begin{document}
+    \maketitle
+\end{document}
