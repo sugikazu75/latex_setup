@@ -1,6 +1,6 @@
 # dependencies
 ```
-sudo apt install build-essential texlive texlive-lang-cjk texlive-lang-japanese texlive-science texlive-fonts-recommended texlive-fonts-extra jbibtex-base nkf
+sudo apt install build-essential texlive-full texlive-lang-cjk texlive-lang-japanese texlive-science texlive-fonts-recommended texlive-fonts-extra jbibtex-base nkf
 ```
 
 # usage
