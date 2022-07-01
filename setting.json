@@ -75,7 +75,6 @@
             "args": [
                 "-silent",
                 "-outdir=%OUTDIR%",
-                "-interaction=nonstopmode",
                 "%DOC%"
             ],
         },
