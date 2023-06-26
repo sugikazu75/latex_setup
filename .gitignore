@@ -22,4 +22,4 @@
 *.dvi
 *.synctex.gz
 *~
-*.pdf
+out
